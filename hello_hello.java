@@ -6,7 +6,7 @@ public class hello_hello {
         return "Speed " + (distance / time) + " Km/H";
     }
     public static String carFunctions(){
-        return carFunctions(300.0,5.0) + "\n"
+        return carFunctions(250.0,5.0) + "\n"
                 + carFunctions(200.0, 2);
     }
     public static void main(String[] args){
