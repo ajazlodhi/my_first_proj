@@ -1,4 +1,4 @@
-public class Car {
+public class hello_hello {
     public static String carFunctions(double distance, double fuel){
         return "Mileag: " + (distance/fuel) + " km/L";
     }
