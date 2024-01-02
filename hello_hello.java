@@ -1,13 +1,17 @@
-public class MySwitchStatementTwo{
-    public static void main(String[] args) {
-        int number = 44;
-        String size = switch (number){
-            case 29 -> "Small";
-            case 42 -> "Medium";
-            case 44 -> "Large";
-            case 48, 49, 50 -> "Extra Large";
-            default -> "UNKNOWN";
-        };
-        System.out.println("Size : " + size);
+public class Car {
+    public static String carFunctions(double distance, double fuel){
+        return "Mileag: " + (distance/fuel) + " km/L";
+    }
+    public static String carFunctions(double distance, int time){
+        return "Speed " + (distance / time) + " Km/H";
+    }
+    public static String carFunctions(){
+        return carFunctions(500.0,5.0) + "\n"
+                + carFunctions(200.0, 2);
+    }
+    public static void main(String[] args){
+        String result = carFunctions();
+        System.out.println(result);
+
     }
 }
