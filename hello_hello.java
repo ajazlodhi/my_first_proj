@@ -7,7 +7,7 @@ public class hello_hello {
     }
     public static String carFunctions(){
         return carFunctions(250.0,5.0) + "\n"
-                + carFunctions(200.0, 2);
+                + carFunctions(100.0, 2);
     }
     public static void main(String[] args){
         String result = carFunctions();
